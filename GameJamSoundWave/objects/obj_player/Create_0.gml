@@ -34,8 +34,8 @@ true_xspeed = 0;
 true_yspeed = 0;
 
 //Graphics Related
-animation[0] = 0
-animation[1] = 25
-animation[2] = 55
+animation[0] = 0;
+animation[1] = 25;
+animation[2] = 55;
 
-sprite_dir = 0
+sprite_dir = 0;

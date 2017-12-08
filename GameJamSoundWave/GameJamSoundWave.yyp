@@ -58,7 +58,7 @@
             "Key": "15835f00-ea7e-4dc4-a5b1-3974c9b5b273",
             "Value": {
                 "id": "bb1d1ae8-d4cc-4ccb-bafc-991c8aa3a56f",
-                "resourcePath": "scripts\\object_collision\\object_collision.yy",
+                "resourcePath": "scripts\\enemy_movement_collision\\enemy_movement_collision.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "5e44e7fe-4ca6-4710-8596-9932f9b7b935",
+            "Value": {
+                "id": "4ed3c4c9-33c5-4956-80b9-4434b19f674e",
+                "resourcePath": "views\\5e44e7fe-4ca6-4710-8596-9932f9b7b935.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "63ad9d59-054b-4b88-ad88-0e5f3f611e3b",
             "Value": {
                 "id": "01f48656-0fa0-4442-b421-59fa269083bc",
@@ -148,6 +156,14 @@
                 "id": "6e287a37-4bec-4c59-9a70-80121dcc93f8",
                 "resourcePath": "objects\\obj_solid\\obj_solid.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "642ec968-3d53-4b59-8fb5-9dfb10014dd3",
+            "Value": {
+                "id": "eada355d-fc94-4358-bbd4-0aaea057d4e7",
+                "resourcePath": "sprites\\spr_block\\spr_block.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -7,7 +7,7 @@ player_movement();
 //Graphics Related
 for(i = 0; i < 3; ++i) 
 {
-	animation[i] += 3
+	animation[i] += 3;
 }
 
 if down  { sprite_dir = 0 image_xscale =  3 }
