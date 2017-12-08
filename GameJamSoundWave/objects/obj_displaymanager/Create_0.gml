@@ -72,6 +72,6 @@ display_scale = (display_get_gui_width()/view_w);
 gui_mouse_x = (mouse_x - view_x)*display_scale;
 gui_mouse_y = (mouse_y - view_y)*display_scale;
 
-FollowObject = noone;
+FollowObject = obj_player;
 
 room_goto_next();
