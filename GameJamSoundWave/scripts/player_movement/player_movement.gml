@@ -27,6 +27,15 @@ if!(axis_x == 0 and axis_y == 0)
 	axis_y = ((axis_y/dist) * mdist);
 }
 
-x+=axis_x;
-y+=axis_y;
+if(player_movement_collision(obj_solid))
+{
+	color = c_red;
+}
+else
+{
+	color = c_white;	
+}
+
+x += axis_x;
+y += axis_y;
 

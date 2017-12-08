@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description
+
 //Appearance
 color = c_white;
 image_xscale = 1;
