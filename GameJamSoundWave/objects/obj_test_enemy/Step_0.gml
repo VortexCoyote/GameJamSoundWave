@@ -2,4 +2,4 @@
 depth = -y;
 
 enemy_follow();
-enemy_pathfind();
+enemy_pathfind();	
