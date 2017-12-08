@@ -7,5 +7,7 @@ image_xscale = 1;
 image_yscale = image_xscale;
 color = c_purple;
 
+movement_speed = 4;
 x_speed = 0;
 y_speed = 0;
+dir = 0;
