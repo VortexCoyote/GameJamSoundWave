@@ -25,7 +25,7 @@ if(brickx)
 			x-=sign(p_difference);
 		}  
 	}
-	return true;
+
 }
 	
 bricky = instance_place(x,y + axis_y,argument0);
@@ -38,7 +38,4 @@ if(bricky)
 
 	}
 	axis_y = 0;
-	return true;
 }
-
-return false; 

@@ -8,7 +8,7 @@ if(brickx)
 	}
 	x_speed = 0;
 	
-	//makes player not stuck
+	//makes enemy not stuck
 	if(x > brickx.x and instance_place(x,y,argument0))
 	{
 		var p_difference = abs((x - sprite_width/2) - (brickx.x + brickx.sprite_width/2));

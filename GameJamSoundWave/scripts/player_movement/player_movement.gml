@@ -1,4 +1,4 @@
-up = keyboard_check(key_up);
+ up = keyboard_check(key_up);
 down = keyboard_check(key_down)
 left = keyboard_check(key_left)
 right = keyboard_check(key_right);
@@ -27,14 +27,7 @@ if!(axis_x == 0 and axis_y == 0)
 	axis_y = ((axis_y/dist) * mdist);
 }
 
-if(player_movement_collision(obj_solid))
-{
-	color = c_red;
-}
-else
-{
-	color = c_white;	
-}
+player_movement_collision(obj_solid)
 
 x += axis_x;
 y += axis_y;

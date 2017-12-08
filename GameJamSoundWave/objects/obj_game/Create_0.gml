@@ -8,3 +8,5 @@ pause_sprite_ = noone;
 
 globalvar SlowMo;
 SlowMo = 1;
+
+global.grid = noone;
