@@ -2,7 +2,7 @@
 
 //Appearance
 color = c_white;
-image_xscale = 1;
+image_xscale = 3;
 image_yscale = image_xscale;
 
 //Keys
@@ -32,3 +32,10 @@ axis_y_restitution = 0.5;
 
 true_xspeed = 0;
 true_yspeed = 0;
+
+//Graphics Related
+animation[0] = 0
+animation[1] = 25
+animation[2] = 55
+
+sprite_dir = 0
