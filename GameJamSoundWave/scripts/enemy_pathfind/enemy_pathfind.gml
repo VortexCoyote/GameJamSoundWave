@@ -1,5 +1,6 @@
 if(current_state == enemy_state.pathfind)
 {
+	timer--;
 	color = c_dkgray;
 	
 	if(instance_exists(target))
@@ -12,8 +13,15 @@ if(current_state == enemy_state.pathfind)
 	path_start(path,movement_speed,"",false);
 	var line_collide = collision_line(x,y,target.x,target.y,obj_solid,true,true);
 	var target_distance = point_distance(x,y,target.x,target.y);
-	if(!line_collide and target_distance < 200)
+	if(timer < 0 and !line_collide and target_distance < view_w/2)
 	{
+		timer = 40;
+		path_end();
+		current_state = enemy_state.follow;	
+	}
+	if(target_distance < sprite_width)
+	{
+		timer = 40;
 		path_end();
 		current_state = enemy_state.follow;	
 	}

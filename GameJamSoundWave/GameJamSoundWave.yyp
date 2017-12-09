@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "7bc75e9d-192d-497e-a311-fb8728fb36e6",
+            "Value": {
+                "id": "7ed570a8-19ff-4ea1-964c-c8b69ac5be4e",
+                "resourcePath": "scripts\\enemy_to_enemy_collision\\enemy_to_enemy_collision.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7bd47fcb-cb1f-4b70-94b1-548c7322fa8f",
             "Value": {
                 "id": "0353a7d8-2d21-464a-81d8-a22219438606",
@@ -335,6 +343,14 @@
             }
         },
         {
+            "Key": "b41b2829-665f-4041-891a-72bdb8f46da4",
+            "Value": {
+                "id": "1065e8a9-d717-4c3f-b970-f6d58565535f",
+                "resourcePath": "scripts\\entity_collision\\entity_collision.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c5d9bd0d-af6a-4c7c-9308-354953fa4f6d",
             "Value": {
                 "id": "add8f2f2-1489-456d-9922-76d89759f471",
@@ -447,7 +463,9 @@
         "082bfca0-0ef6-4ddd-a762-0929ecfce07c",
         "15835f00-ea7e-4dc4-a5b1-3974c9b5b273",
         "804d5b68-3346-4b6c-b8c2-73055e5f0402",
-        "d9017a1d-f4fe-402d-8837-f3adbaaca603"
+        "d9017a1d-f4fe-402d-8837-f3adbaaca603",
+        "7bc75e9d-192d-497e-a311-fb8728fb36e6",
+        "b41b2829-665f-4041-891a-72bdb8f46da4"
     ],
     "tutorial": ""
 }

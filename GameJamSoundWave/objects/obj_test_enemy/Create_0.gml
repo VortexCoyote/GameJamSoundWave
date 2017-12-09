@@ -27,3 +27,5 @@ enum enemy_state
 }
 
 current_state = enemy_state.follow;
+
+timer = 40;
