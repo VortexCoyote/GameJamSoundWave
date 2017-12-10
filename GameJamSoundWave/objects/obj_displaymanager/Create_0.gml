@@ -75,3 +75,8 @@ gui_mouse_y = (mouse_y - view_y)*display_scale;
 FollowObject = obj_player;
 
 room_goto_next();
+
+///Shader Related Stuff
+globalvar light_surface;
+
+light_surface = surface_create(view_w, view_h );

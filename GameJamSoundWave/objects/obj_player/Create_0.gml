@@ -39,3 +39,5 @@ animation[1] = 25;
 animation[2] = 55;
 
 sprite_dir = 0;
+
+light = instance_create(x, y, obj_light)

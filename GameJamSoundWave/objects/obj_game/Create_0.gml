@@ -10,3 +10,4 @@ globalvar SlowMo;
 SlowMo = 1;
 
 global.grid = noone;
+
