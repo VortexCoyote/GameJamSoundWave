@@ -1,6 +1,6 @@
 draw_set_colour(c_white)
 
-if ( surface_exists( light_surface ) ) 
+if(surface_exists(light_surface)) 
 {
     surface_set_target( light_surface );
     draw_clear_alpha( c_white, 0.0 );
@@ -22,16 +22,16 @@ else
    show_debug_message("Created surface");
 }
 
-if surface_exists(light_surface)
+if(surface_exists(light_surface))
 {
-	shader_set(sh_light)
+	shader_set(sh_light);
 
-    shader_set_uniform_f(light_position, (obj_player.x - view_x)/view_w, (obj_player.y - view_y)/view_h)
-    shader_set_uniform_f(light_colour, r, g, b)
+    shader_set_uniform_f(light_position, (obj_player.x - view_x)/view_w, (obj_player.y - view_y)/view_h);
+    shader_set_uniform_f(light_colour, r, g, b); 
 	
-    draw_surface(light_surface, view_x, view_y)
+    draw_surface(light_surface, view_x, view_y);
 	
-	shader_reset()  
+	shader_reset();
 }
 
 

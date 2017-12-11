@@ -3,7 +3,6 @@ depth = -y;
 
 player_movement();
 
-
 //Graphics Related
 for(i = 0; i < 3; ++i) 
 {

@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "2ca3836a-d4bd-4d29-ab8f-6638d257d5ee",
+            "Value": {
+                "id": "a8958481-2cd1-4e54-bcab-e6d4af37741a",
+                "resourcePath": "scripts\\collision_circle_list\\collision_circle_list.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "30246951-5ed3-4349-ad96-8dd679706d0c",
             "Value": {
                 "id": "9cacff85-0763-4a93-bc7e-4f0e682d3a2a",
@@ -439,6 +447,14 @@
             }
         },
         {
+            "Key": "d6db1155-83a4-4733-979e-18b18787d7c2",
+            "Value": {
+                "id": "aef7a7a8-8e63-44c2-98d9-749510762a20",
+                "resourcePath": "objects\\obj_test_weapon\\obj_test_weapon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d9017a1d-f4fe-402d-8837-f3adbaaca603",
             "Value": {
                 "id": "60171146-d511-4745-be99-5102c7cc9bd2",
@@ -523,6 +539,7 @@
         "f53ed9a6-6133-46af-989c-d16a4b205859",
         "7f897876-eb77-4b75-99a9-098b9f0d79bf",
         "aa71a16d-33d0-4737-9050-3f52c24648ab",
+        "2ca3836a-d4bd-4d29-ab8f-6638d257d5ee",
         "c9c0f762-e03e-49ee-9277-b49b0f4fd3bd",
         "082bfca0-0ef6-4ddd-a762-0929ecfce07c",
         "15835f00-ea7e-4dc4-a5b1-3974c9b5b273",
