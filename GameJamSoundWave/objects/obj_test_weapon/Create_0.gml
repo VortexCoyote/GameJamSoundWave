@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 target = obj_player;
+color = c_white;
 
 dir = 0;
 //Wave Attack
