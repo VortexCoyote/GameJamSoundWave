@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "b71f42df-d615-4be5-bf4b-95980e0a4bf9",
+            "Value": {
+                "id": "26b9425f-2e15-4fd1-90f3-5f95d67de4d0",
+                "resourcePath": "objects\\obj_test_AOE_enemy\\obj_test_AOE_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b7d7ed88-2412-4dc2-8fa3-728ac6cdc3cb",
             "Value": {
                 "id": "f571279e-ff3d-4dcb-963d-cfcae5d5e57a",
@@ -580,6 +588,14 @@
                 "id": "e93ad63c-b9d0-4c39-922d-3879883bb681",
                 "resourcePath": "views\\f76675c2-a813-4d5b-af8e-73f8aa43cb96.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f93ed13c-d1d1-4eab-bac5-42ae8afca72a",
+            "Value": {
+                "id": "d8fdc2fe-eac0-4228-865f-944f5205f5fc",
+                "resourcePath": "objects\\obj_test_shoot_enemy\\obj_test_shoot_enemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
