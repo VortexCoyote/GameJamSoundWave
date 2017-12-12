@@ -1,6 +1,7 @@
 if(current_state == enemy_state.follow)
 {
-
+	attack_timer--;
+	movement_speed = lerp(movement_speed,4,0.2);
 	if(instance_exists(target))
 	{
 		dir = point_direction(x,y,target.x,target.y);
@@ -23,11 +24,12 @@ if(current_state == enemy_state.follow)
 			current_state = enemy_state.pathfind;
 		}
 		
-		if(!line_collide and target_distance < 150)
+		if(!line_collide and target_distance < 150 and attack_timer <= 0)
 		{
 			timer = 40;
+			attack_timer = 120;
 			current_state = enemy_state.leap;
-		}
+		} 
 		
 		enemy_to_enemy_collision();
 		entity_collision(target);

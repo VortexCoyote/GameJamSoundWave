@@ -15,6 +15,7 @@ dir = 0;
 
 leap_range = 0;
 leap_speed = 0;
+
 //Pathing
 path_x = 0;
 path_y = 0;
@@ -32,3 +33,4 @@ enum enemy_state
 current_state = enemy_state.follow;
 
 timer = 40;
+attack_timer = 120;

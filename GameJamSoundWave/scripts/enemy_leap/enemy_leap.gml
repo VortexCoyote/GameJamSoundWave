@@ -12,14 +12,15 @@ if(current_state == enemy_state.leap)
 		
 		timer--;
 		dir = point_direction(x,y,target.x,target.y);
-		leap_range = 200;
-		leap_speed = 12;
+		leap_range = 300;
+		leap_speed = 14;
 	}
 	else
 	{
 		if(leap_range < 0)
 		{
 			current_state = enemy_state.follow;	
+			movement_speed = 1;
 		}
 		leap_speed -= 0.2;
 		x_speed = lengthdir_x(leap_speed,dir);
