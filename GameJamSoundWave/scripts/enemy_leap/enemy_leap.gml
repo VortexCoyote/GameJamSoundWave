@@ -1,6 +1,6 @@
 if(current_state == enemy_state.leap)
 {
-	var shake_value = 2;
+	var shake_value = 2.5;
 	if(timer > 0)
 	{
 		var _dir = random(360);

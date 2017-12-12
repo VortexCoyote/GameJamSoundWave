@@ -16,6 +16,7 @@ dir = 0;
 leap_range = 0;
 leap_speed = 0;
 
+patroll_action = "patroll";
 //Pathing
 path_x = 0;
 path_y = 0;
@@ -27,10 +28,11 @@ enum enemy_state
 {
 	follow,
 	pathfind,
-	leap
+	leap,
+	patroll
 }
 
-current_state = enemy_state.follow;
+current_state = enemy_state.patroll;
 
-timer = 40;
+timer = 120;
 attack_timer = 120;
