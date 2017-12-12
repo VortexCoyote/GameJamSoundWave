@@ -23,16 +23,23 @@ else
    show_debug_message("Created surface");
 }
 
-
+if !surface_exists(lowres_surface) lowres_surface = surface_create(view_w, view_h)
 
 if(surface_exists(light_surface))
 {
-	shader_set(sh_light);
-
-    shader_set_uniform_f(light_position, (obj_player.x - view_x)/view_w, (obj_player.y - view_y)/view_h);
-    shader_set_uniform_f(light_colour, r, g, b); 
+	surface_set_target( lowres_surface );
+	draw_clear_alpha( c_white, 0.0 );
 	
-    draw_surface(light_surface, view_x, view_y);
+	shader_set(sh_light)
+
+    shader_set_uniform_f(light_position, (obj_player.x - view_x)/view_w, (obj_player.y - view_y)/view_h)
+    shader_set_uniform_f(light_colour, r, g, b);
+	
+    draw_surface_stretched(light_surface, 0, 0, l_w, l_h)
 	
 	shader_reset()
+	
+	surface_reset_target()
+	
+	draw_surface_stretched(lowres_surface, view_x, view_y, n_w, n_h)
 }

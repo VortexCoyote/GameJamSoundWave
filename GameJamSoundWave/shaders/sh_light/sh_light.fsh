@@ -19,7 +19,7 @@ void main()
     
     for(float f = 0.; f < dis; f += stepValue) 
     {
-        vec4 positionColour = texture2D( gm_BaseTexture, coords);
+        vec4 positionColour = texture2D( gm_BaseTexture, coords + dir*0.01);
                         
         if (positionColour.a > 0.0)
         {
@@ -34,6 +34,6 @@ void main()
         coords += actualStepValue;        
     }
 	
-	gl_FragColor = colour + v_vColour * texture2D( gm_BaseTexture, v_vTexcoord );
+	gl_FragColor = colour;// + v_vColour * texture2D( gm_BaseTexture, v_vTexcoord );
 }
 
