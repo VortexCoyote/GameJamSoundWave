@@ -5,8 +5,8 @@ view_zoom=1;
 
 screenshake = 0;
 
-ideal_width=0;
-ideal_height=540;
+ideal_width = 0;
+ideal_height = 540;
 corresponding_width = 960;
 
 globalvar display_width;

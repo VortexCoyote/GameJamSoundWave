@@ -11,7 +11,7 @@ void main()
     
     vec2 lightCoords = lightPosition;
     
-    float dis = distance(lightCoords, coords);    
+    float dis = distance(lightCoords*vec2(2.1, 1.3), coords*vec2(2.1, 1.3));    
     vec2 dir = normalize(lightCoords - coords);
     
     float stepValue = 0.006;
@@ -21,7 +21,7 @@ void main()
     {
         vec4 positionColour = texture2D( gm_BaseTexture, coords);
                         
-        if (bool(positionColour.a))
+        if (positionColour.a > 0.0)
         {
             break;
         }
