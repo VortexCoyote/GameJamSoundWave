@@ -13,6 +13,8 @@ x_speed = 0;
 y_speed = 0;
 dir = 0;
 
+leap_range = 0;
+leap_speed = 0;
 //Pathing
 path_x = 0;
 path_y = 0;

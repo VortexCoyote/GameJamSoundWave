@@ -23,6 +23,12 @@ if(current_state == enemy_state.follow)
 			current_state = enemy_state.pathfind;
 		}
 		
+		if(!line_collide and target_distance < 150)
+		{
+			timer = 40;
+			current_state = enemy_state.leap;
+		}
+		
 		enemy_to_enemy_collision();
 		entity_collision(target);
 		
