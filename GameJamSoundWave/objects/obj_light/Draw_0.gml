@@ -24,17 +24,15 @@ else
 }
 
 
+
+if(surface_exists(light_surface))
 {
+	shader_set(sh_light);
+
+    shader_set_uniform_f(light_position, (obj_player.x - view_x)/view_w, (obj_player.y - view_y)/view_h);
+    shader_set_uniform_f(light_colour, r, g, b); 
 	
-	shader_set(sh_light)
+    draw_surface(light_surface, view_x, view_y);
 	
-    shader_set_uniform_f(light_position, (obj_player.x - view_x)/view_w, (obj_player.y - view_y)/view_h)
-    shader_set_uniform_f(light_colour, r, g, b)
-	
-	draw_surface(light_surface, view_x, view_y)
-	
-	shader_reset()  
+	shader_reset()
 }
-
-
-

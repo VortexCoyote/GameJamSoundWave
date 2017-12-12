@@ -1,6 +1,6 @@
 if(current_state == enemy_state.follow)
 {
-	color = c_white;
+
 	if(instance_exists(target))
 	{
 		dir = point_direction(x,y,target.x,target.y);

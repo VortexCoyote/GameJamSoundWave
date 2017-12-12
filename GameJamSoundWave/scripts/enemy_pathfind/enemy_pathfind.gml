@@ -1,7 +1,6 @@
 if(current_state == enemy_state.pathfind)
 {
 	timer--;
-	color = c_dkgray;
 	
 	if(instance_exists(target))
 	{
