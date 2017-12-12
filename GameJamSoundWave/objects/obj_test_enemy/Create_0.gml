@@ -23,7 +23,8 @@ path = path_add();
 enum enemy_state
 {
 	follow,
-	pathfind
+	pathfind,
+	leap
 }
 
 current_state = enemy_state.follow;

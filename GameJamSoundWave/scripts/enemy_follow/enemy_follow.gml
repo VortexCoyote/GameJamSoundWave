@@ -17,6 +17,7 @@ if(current_state == enemy_state.follow)
 		var line_collide = collision_line(x,y,target.x,target.y,obj_solid,true,true);
 		if(line_collide)
 		{
+			timer = 40;
 			path_x = target.x;
 			path_y = target.y;
 			current_state = enemy_state.pathfind;

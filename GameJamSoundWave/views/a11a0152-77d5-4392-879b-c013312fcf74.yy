@@ -7,7 +7,8 @@
         "804d5b68-3346-4b6c-b8c2-73055e5f0402",
         "d9017a1d-f4fe-402d-8837-f3adbaaca603",
         "7bc75e9d-192d-497e-a311-fb8728fb36e6",
-        "b41b2829-665f-4041-891a-72bdb8f46da4"
+        "b41b2829-665f-4041-891a-72bdb8f46da4",
+        "ac9e9397-582f-4a24-b6ae-e41fa60c6b43"
     ],
     "filterType": "GMScript",
     "folderName": "Test Enemy",
