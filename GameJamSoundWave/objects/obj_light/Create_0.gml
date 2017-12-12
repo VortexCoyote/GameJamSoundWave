@@ -12,3 +12,4 @@ n_w = ( view_w / l_w ) * view_w
 n_h = ( view_h / l_h ) * view_h
 
 lowres_surface = surface_create(l_w, l_h)
+blur_surface = surface_create(l_w, l_h)

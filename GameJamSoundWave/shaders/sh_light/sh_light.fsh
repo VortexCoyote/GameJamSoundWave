@@ -11,8 +11,8 @@ void main()
     
     vec2 lightCoords = lightPosition;
     
-    float dis = distance(lightCoords*vec2(2.1, 1.3), coords*vec2(2.1, 1.3));    
-    vec2 dir = normalize(lightCoords - coords);
+    float dis = distance(lightCoords, coords);    
+    vec2 dir = normalize(lightCoords -coords);
     
     float stepValue = 0.006;
     vec2 actualStepValue = dir*stepValue;
