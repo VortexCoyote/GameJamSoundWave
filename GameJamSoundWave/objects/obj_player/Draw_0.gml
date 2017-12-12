@@ -2,7 +2,7 @@
 //draw_sprite_ext(sprite_index,image_index,round(x),round(y),
 //image_xscale,image_yscale,image_angle,color,image_alpha);
 
-
+draw_line_pixel(x,y,mouse_x,mouse_y,c_white,1.5);
 draw_sprite_ext(spr_player_body,sprite_dir,round(x),round(y) + 2*dcos(animation[0]), image_xscale, image_yscale, image_angle, color, image_alpha);
 draw_sprite_ext(spr_player_head,sprite_dir,round(x),round(y) + 2*dcos(animation[2]), image_xscale, image_yscale, image_angle, color, image_alpha);
 
