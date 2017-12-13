@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "d25e7fad-19bc-4eeb-8692-6bb28a5d3a91",
+            "Value": {
+                "id": "ab734e25-66f0-400d-8b5c-2791b8a48d44",
+                "resourcePath": "shaders\\sh_shade\\sh_shade.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "d6db1155-83a4-4733-979e-18b18787d7c2",
             "Value": {
                 "id": "aef7a7a8-8e63-44c2-98d9-749510762a20",
