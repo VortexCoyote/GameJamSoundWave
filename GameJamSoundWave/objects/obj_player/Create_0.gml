@@ -41,4 +41,3 @@ animation[2] = 55;
 sprite_dir = 0;
 
 light = instance_create(x, y, obj_light);
-//weapon = instance_create(x,y,obj_test_weapon);

@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "4956e7d2-9539-47ec-a0d9-96f227d5cf6a",
+            "Value": {
+                "id": "8966c06e-ff45-405c-a1f9-4675fe128743",
+                "resourcePath": "sprites\\spr_cone1\\spr_cone1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4aded686-be99-4553-864e-8f202baae2d3",
             "Value": {
                 "id": "6f81abb3-59b2-449c-8327-97065bd3201b",
