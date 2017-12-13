@@ -5,11 +5,11 @@ if(current_state == argument0)
 	
 	if(target_distance < 100)
 	{
-		current_state = enemy_state.follow;
+		current_state = enemy_shoot_state.follow;
 	}
 	if(target_distance < 350 and !line_collide)
 	{
-		current_state = enemy_state.follow;	
+		current_state = enemy_shoot_state.follow;	
 	}
 	
 	timer--;

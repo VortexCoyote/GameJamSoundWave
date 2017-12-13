@@ -18,19 +18,19 @@ if(current_state == argument0)
 	if(timer < 0 and !line_collide and target_distance < view_w/2)
 	{
 		path_end();
-		current_state = enemy_state.follow;	
+		current_state = enemy_shoot_state.follow;	
 	}
 	if(target_distance < sprite_width * 2)
 	{
 		path_end();
-		current_state = enemy_state.follow;	
+		current_state = enemy_shoot_state.follow;	
 	}
 	
-	if(!line_collide and timer < 0 and target_distance < 150 and attack_timer > 0)
+	if(!line_collide and timer < 0 and target_distance < 220 and attack_timer > 0)
 	{
 		path_end();
 		timer = 40;
 		attack_timer = 120;
-		current_state = enemy_state.leap;
+		current_state = enemy_shoot_state.shoot;
 	}
 }

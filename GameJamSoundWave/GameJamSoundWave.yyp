@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "38eceb7d-b90e-45a4-81fd-00eb95153954",
+            "Value": {
+                "id": "b1330d90-13fb-42d9-8c24-49051e27dc9c",
+                "resourcePath": "scripts\\enemy_shoot_pathfind\\enemy_shoot_pathfind.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4072cfb7-2bdf-4ed1-ac6d-07cd95d1c107",
             "Value": {
                 "id": "92e7a8b9-74b7-441b-960a-dedcd35cc750",
@@ -191,6 +199,14 @@
             }
         },
         {
+            "Key": "5fe53edf-91bf-4c24-9f40-b3c2c7096ceb",
+            "Value": {
+                "id": "629bdd37-c839-41e0-9244-3a3fad990d0b",
+                "resourcePath": "scripts\\enemy_shoot\\enemy_shoot.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "61895e27-6122-4e91-8cbd-e455068c8b4f",
             "Value": {
                 "id": "f59677cc-29c0-4b21-9964-24ceb3057a03",
@@ -236,6 +252,14 @@
                 "id": "2313ba8c-0032-4677-bf72-15de3bf025de",
                 "resourcePath": "views\\70886810-d17e-4429-8f32-87df91656f59.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7aa87c43-9e19-42f0-ae55-a55e1159ecde",
+            "Value": {
+                "id": "11a3a480-0ef6-42c3-ac4f-e3ae53753df5",
+                "resourcePath": "scripts\\enemy_shoot_follow\\enemy_shoot_follow.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -383,6 +407,14 @@
             }
         },
         {
+            "Key": "a3758af1-eb28-48cb-96ae-e143eaa7c189",
+            "Value": {
+                "id": "a53c5cfa-fee5-4eac-97a0-5fe6b98296bd",
+                "resourcePath": "views\\a3758af1-eb28-48cb-96ae-e143eaa7c189.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a516a890-3223-4429-ac52-d39fc136742f",
             "Value": {
                 "id": "8e197509-3160-45b1-a503-6cd3a54998dc",
@@ -455,6 +487,14 @@
             }
         },
         {
+            "Key": "c1e33724-00d9-4864-b9e6-d088306dfa44",
+            "Value": {
+                "id": "3b3bbbdf-be32-44c3-8d4e-be7132d5bcc7",
+                "resourcePath": "scripts\\enemy_shoot_patroll\\enemy_shoot_patroll.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c5d9bd0d-af6a-4c7c-9308-354953fa4f6d",
             "Value": {
                 "id": "add8f2f2-1489-456d-9922-76d89759f471",
@@ -484,6 +524,14 @@
                 "id": "307174a6-3eda-44bf-b1fc-4fb6d81f8ee3",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d0492502-b001-49c9-bc25-3163d2262cb8",
+            "Value": {
+                "id": "9f9a2745-7d1e-4495-881b-52a0d0093e13",
+                "resourcePath": "objects\\obj_line_projectile\\obj_line_projectile.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -531,6 +579,14 @@
             "Value": {
                 "id": "85597998-9432-4a93-bf6f-e51a665c1363",
                 "resourcePath": "views\\e29977ae-6314-43f0-a6b8-48230f13623c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e2a5b8b5-a4ee-469b-9505-f6e25d98ac9f",
+            "Value": {
+                "id": "13f20f64-506b-4639-abdb-b4168976a571",
+                "resourcePath": "views\\e2a5b8b5-a4ee-469b-9505-f6e25d98ac9f.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -617,12 +673,16 @@
         "c9c0f762-e03e-49ee-9277-b49b0f4fd3bd",
         "082bfca0-0ef6-4ddd-a762-0929ecfce07c",
         "15835f00-ea7e-4dc4-a5b1-3974c9b5b273",
-        "804d5b68-3346-4b6c-b8c2-73055e5f0402",
-        "d9017a1d-f4fe-402d-8837-f3adbaaca603",
-        "7bc75e9d-192d-497e-a311-fb8728fb36e6",
         "b41b2829-665f-4041-891a-72bdb8f46da4",
+        "d9017a1d-f4fe-402d-8837-f3adbaaca603",
+        "804d5b68-3346-4b6c-b8c2-73055e5f0402",
+        "7bc75e9d-192d-497e-a311-fb8728fb36e6",
         "ac9e9397-582f-4a24-b6ae-e41fa60c6b43",
-        "b03162fe-33df-4bb7-918b-f55eb25787c5"
+        "b03162fe-33df-4bb7-918b-f55eb25787c5",
+        "7aa87c43-9e19-42f0-ae55-a55e1159ecde",
+        "38eceb7d-b90e-45a4-81fd-00eb95153954",
+        "c1e33724-00d9-4864-b9e6-d088306dfa44",
+        "5fe53edf-91bf-4c24-9f40-b3c2c7096ceb"
     ],
     "tutorial": ""
 }

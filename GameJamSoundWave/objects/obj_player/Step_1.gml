@@ -14,3 +14,7 @@ if left  { sprite_dir = 1 image_xscale =  3 }
 if up	 { sprite_dir = 2 image_xscale =  3 }
 if right { sprite_dir = 1 image_xscale = -3 } 
 
+if(mouse_check_button_pressed(mb_left))
+{
+	instance_create(x,y,obj_line_projectile);	
+}

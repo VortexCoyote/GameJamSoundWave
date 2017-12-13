@@ -1,4 +1,4 @@
-if(current_state == enemy_state.leap)
+if(current_state == argument0)
 {
 	var shake_value = 2.5;
 	if(timer > 0)

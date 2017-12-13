@@ -1,4 +1,4 @@
- if(current_state == argument0)
+if(current_state == argument0)
 {
 	attack_timer--;
 	movement_speed = lerp(movement_speed,4,0.2);
@@ -13,7 +13,7 @@
 		{
 			path_x = target.x;
 			path_y = target.y;
-			current_state = enemy_state.pathfind;
+			current_state = enemy_shoot_state.pathfind;
 		}
 		var line_collide = collision_line(x,y,target.x,target.y,obj_solid,true,true);
 		if(line_collide)
@@ -21,14 +21,14 @@
 			timer = 40;
 			path_x = target.x;
 			path_y = target.y;
-			current_state = enemy_state.pathfind;
+			current_state = enemy_shoot_state.pathfind;
 		}
 		
-		if(!line_collide and target_distance < 150 and attack_timer <= 0)
+		if(!line_collide and target_distance < 220 and attack_timer <= 0)
 		{
 			timer = 40;
 			attack_timer = 120;
-			current_state = enemy_state.leap;
+			current_state = enemy_shoot_state.shoot;
 		} 
 		
 		enemy_to_enemy_collision();
