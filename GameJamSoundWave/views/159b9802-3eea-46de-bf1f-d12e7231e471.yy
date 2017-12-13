@@ -10,7 +10,8 @@
         "2ca3836a-d4bd-4d29-ab8f-6638d257d5ee",
         "de0ccca7-6363-4085-a9e6-55f2ec21a4a3",
         "5fddee3f-39a5-46af-abe4-6932dcd46edc",
-        "f89067fa-b7bb-40ee-a905-79318387257a"
+        "f89067fa-b7bb-40ee-a905-79318387257a",
+        "89a3bc2e-2691-486c-bcb8-de27f940b42e"
     ],
     "filterType": "GMScript",
     "folderName": "Game\/Software",

@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "89a3bc2e-2691-486c-bcb8-de27f940b42e",
+            "Value": {
+                "id": "91c9d94f-7e1c-423a-8b1e-0fb6da0ed7e9",
+                "resourcePath": "scripts\\shake_screen\\shake_screen.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8a41f745-6ed5-423c-ab7c-5b8cfd01a231",
             "Value": {
                 "id": "e2deff66-fe0e-44ea-ba16-776c8253c704",
@@ -695,6 +703,7 @@
         "de0ccca7-6363-4085-a9e6-55f2ec21a4a3",
         "5fddee3f-39a5-46af-abe4-6932dcd46edc",
         "f89067fa-b7bb-40ee-a905-79318387257a",
+        "89a3bc2e-2691-486c-bcb8-de27f940b42e",
         "c9c0f762-e03e-49ee-9277-b49b0f4fd3bd",
         "082bfca0-0ef6-4ddd-a762-0929ecfce07c",
         "15835f00-ea7e-4dc4-a5b1-3974c9b5b273",
