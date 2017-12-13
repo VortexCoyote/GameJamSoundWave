@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "a362d0e4-198e-46c8-915b-05e72031ca4f",
+            "Value": {
+                "id": "5d936870-0313-4c0f-a217-fcbdc1b1cfc2",
+                "resourcePath": "shaders\\sh_darkness\\sh_darkness.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "a516a890-3223-4429-ac52-d39fc136742f",
             "Value": {
                 "id": "8e197509-3160-45b1-a503-6cd3a54998dc",
