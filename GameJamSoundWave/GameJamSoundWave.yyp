@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "2fb6c47e-efb5-4dd7-8914-57f926062b01",
+            "Value": {
+                "id": "d31493c9-c7ea-4d52-9908-9f82f9f01ec0",
+                "resourcePath": "shaders\\sh_normal\\sh_normal.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "30246951-5ed3-4349-ad96-8dd679706d0c",
             "Value": {
                 "id": "9cacff85-0763-4a93-bc7e-4f0e682d3a2a",
@@ -596,6 +604,14 @@
                 "id": "13f20f64-506b-4639-abdb-b4168976a571",
                 "resourcePath": "views\\e2a5b8b5-a4ee-469b-9505-f6e25d98ac9f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e3342c72-3f09-4cca-b3b1-a00da454d93c",
+            "Value": {
+                "id": "e55f0556-4f85-4ef5-b391-58af1ec93bdd",
+                "resourcePath": "sprites\\spr_normalmap\\spr_normalmap.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

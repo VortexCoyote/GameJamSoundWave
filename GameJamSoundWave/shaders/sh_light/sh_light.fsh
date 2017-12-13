@@ -4,6 +4,7 @@ varying vec4 v_vColour;
 uniform vec3 lightColour;
 uniform vec2 lightPosition;
 
+
 void main()
 {
     vec4 colour = vec4(0.);
@@ -33,6 +34,7 @@ void main()
         
         coords += actualStepValue;        
     }
+	
 	
 	gl_FragColor = colour;// + v_vColour * texture2D( gm_BaseTexture, v_vTexcoord );
 }
