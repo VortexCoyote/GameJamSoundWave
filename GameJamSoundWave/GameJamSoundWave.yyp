@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "76a86f28-0966-48a1-a07f-f03099086c66",
+            "Value": {
+                "id": "0d698f7f-ba88-47d8-bcf2-a45a98691d95",
+                "resourcePath": "objects\\obj_dust\\obj_dust.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7aa87c43-9e19-42f0-ae55-a55e1159ecde",
             "Value": {
                 "id": "11a3a480-0ef6-42c3-ac4f-e3ae53753df5",
@@ -655,6 +663,14 @@
             }
         },
         {
+            "Key": "f89067fa-b7bb-40ee-a905-79318387257a",
+            "Value": {
+                "id": "b19e1f0d-8667-4484-9e9f-1108e8e5bc51",
+                "resourcePath": "scripts\\spawn_enemy\\spawn_enemy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f93ed13c-d1d1-4eab-bac5-42ae8afca72a",
             "Value": {
                 "id": "d8fdc2fe-eac0-4228-865f-944f5205f5fc",
@@ -678,6 +694,7 @@
         "2ca3836a-d4bd-4d29-ab8f-6638d257d5ee",
         "de0ccca7-6363-4085-a9e6-55f2ec21a4a3",
         "5fddee3f-39a5-46af-abe4-6932dcd46edc",
+        "f89067fa-b7bb-40ee-a905-79318387257a",
         "c9c0f762-e03e-49ee-9277-b49b0f4fd3bd",
         "082bfca0-0ef6-4ddd-a762-0929ecfce07c",
         "15835f00-ea7e-4dc4-a5b1-3974c9b5b273",

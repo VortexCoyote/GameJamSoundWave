@@ -13,5 +13,10 @@ if(collision_line(x,y,x+lenx,y+leny,obj_solid,true,true))
 	length -= 12;
 }
 
+if(collision_line(x,y,x+lenx,y+leny,obj_player,true,true))
+{
+	instance_destroy();	
+}
+
 x+= lengthdir_x(_speed,dir);
 y+= lengthdir_y(_speed,dir);
