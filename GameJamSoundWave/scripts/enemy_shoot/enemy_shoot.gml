@@ -1,5 +1,7 @@
 if(current_state == argument0)
 {
+	randomize();
+	
 	if(timer > 0)
 	{
 		timer--;

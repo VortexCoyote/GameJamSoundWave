@@ -6,7 +6,7 @@ image_angle = dir;
 x = target.x + lengthdir_x(20 + circle_radius/2.5,dir);
 y = target.y + lengthdir_y(20 + circle_radius/2.5,dir);
 
-if(mouse_wheel_up())
+/*if(mouse_wheel_up())
 {
 	circle_radius +=5;
 }
@@ -14,10 +14,10 @@ if(mouse_wheel_up())
 if(mouse_wheel_down())
 {
 	circle_radius -=5;
-}
+}*/
 
-image_xscale = circle_radius/48;
-image_yscale = circle_radius/32/2;
+image_xscale = circle_radius/210;
+image_yscale = circle_radius/114/2;
 
 cone_coll_obj = instance_place_list(x,y,obj_enemy);
 
