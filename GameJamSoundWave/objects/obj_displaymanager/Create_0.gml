@@ -76,3 +76,7 @@ FollowObject = obj_player;
 
 room_goto_next();
 
+/*Shader Related Stuff
+globalvar light_surface;
+
+light_surface = surface_create(view_w, view_h );

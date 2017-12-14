@@ -10,7 +10,7 @@ void main()
 	vec4 AmbientColor = vec4(vec3(0.7), 0.5);
 	vec3 Falloff = vec3(0.5);
 
-	vec4 DiffuseColor = vec4(vec3(0.5), texture2D(gm_BaseTexture, v_vTexcoord).a);
+	vec4 DiffuseColor = texture2D(gm_BaseTexture, v_vTexcoord);//vec4(vec3(0.5), texture2D(gm_BaseTexture, v_vTexcoord).a);
 	vec3 NormalMap = texture2D(gm_BaseTexture, v_vTexcoord).rgb;
 	
 	vec3 LightDir = vec3(lightPosition.xy - v_vTexcoord, 0.0);
@@ -30,5 +30,6 @@ void main()
 	
 	gl_FragColor = v_vColour * vec4(FinalColor, DiffuseColor.a);
 }
+
 
 
