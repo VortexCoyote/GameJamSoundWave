@@ -15,6 +15,10 @@ if(collision_line(x,y,x+lenx,y+leny,obj_solid,true,true))
 
 if(collision_line(x,y,x+lenx,y+leny,obj_player,true,true))
 {
+	with(obj_player)
+	{
+		HP -= 7;	
+	}
 	instance_destroy();	
 }
 

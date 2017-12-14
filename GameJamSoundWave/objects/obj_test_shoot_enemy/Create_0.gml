@@ -9,7 +9,7 @@ color = c_gray;
 sprite_normal = spr_enemy_shooter_nm;
 
 //Movement
-movement_speed = 3;
+movement_speed = 4.5;
 x_speed = 0;
 y_speed = 0;
 dir = 0;

@@ -52,3 +52,8 @@ HP = 100;
 AOE_weapon = noone;
 AOE_attack_timer = 0;
 
+enemy_obj = noone;
+
+x_speed = 0;
+y_speed = 0;
+dir = 0;

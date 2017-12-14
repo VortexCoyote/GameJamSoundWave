@@ -9,7 +9,7 @@ color = c_white ;
 sprite_normal = spr_enemy_small_nm;
 
 //Movement
-movement_speed = 4;
+movement_speed = 6;
 x_speed = 0;
 y_speed = 0;
 dir = 0;

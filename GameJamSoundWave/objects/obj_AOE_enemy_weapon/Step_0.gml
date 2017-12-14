@@ -66,6 +66,6 @@ if(coll_obj != noone)
 		
 		x += xspeed;
 		y += yspeed;
-		
+		HP-=3;
 	}
 }

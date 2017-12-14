@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "004f5ab3-0bfb-4118-b673-177219187bf8",
+            "Value": {
+                "id": "244119c0-81b9-433a-a74d-65786a7382c9",
+                "resourcePath": "sounds\\snd_player_death\\snd_player_death.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "007fc3e8-da1c-4e98-b01d-e32ce370086b",
             "Value": {
                 "id": "04d791bd-6732-4a91-a866-fb29706d58c9",

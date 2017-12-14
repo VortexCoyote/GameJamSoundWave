@@ -41,3 +41,20 @@ if(instance_exists(AOE_weapon))
 	}
 }
 
+
+enemy_obj = instance_place(x,y,obj_enemy);
+if(enemy_obj)
+{	
+	HP -= 2;
+	
+	/*dir = point_direction(x,y,enemy_obj.x,enemy_obj.y) - 180;
+	x_speed += lengthdir_x(10,dir);
+	y_speed += lengthdir_y(10,dir);
+	entity_collision(obj_solid);
+	
+	x+= x_speed;
+	y+= y_speed;*/
+	
+}
+
+
