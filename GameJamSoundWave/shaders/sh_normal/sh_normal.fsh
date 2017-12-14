@@ -25,7 +25,7 @@ void main()
 	float Attenuation = 1.0 / ( Falloff.x + (Falloff.y*D) + (Falloff.z*D*D) );
 	
 	vec3 Intensity = Ambient + Diffuse * Attenuation;
-	vec3 FinalColor = DiffuseColor.rgb * Intensity + vec3(0.1);
+	vec3 FinalColor = DiffuseColor.rgb * Intensity;
 	
 	gl_FragColor = v_vColour * vec4(FinalColor, DiffuseColor.a);
 }
