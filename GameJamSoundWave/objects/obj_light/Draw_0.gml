@@ -24,7 +24,7 @@ for (i = 0; i < instance_number(obj_enemy); ++i)
 {
 	object = instance_find(obj_enemy, i);
 		
-	draw_sprite_ext(object.sprite_index,object.image_index,round(object.x - view_x),round(object.y - view_y),
+	draw_sprite_ext(object.sprite_normal,object.image_index,round(object.x - view_x),round(object.y - view_y),
 	object.image_xscale,object.image_yscale,object.image_angle,object.color,object.image_alpha);    
 }
 

@@ -3,9 +3,10 @@ event_inherited();
 target = obj_player;
 
 //Appearance
-image_xscale = 1;
+image_xscale = 3;
 image_yscale = image_xscale;
 color = c_white ;
+sprite_normal = spr_enemy_small_nm;
 
 //Movement
 movement_speed = 4;

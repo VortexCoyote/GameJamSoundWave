@@ -3,10 +3,10 @@ event_inherited();
 target = obj_player;
 
 //Appearance
-image_xscale = 2;
+image_xscale = 3;
 image_yscale = image_xscale;
 color = c_white ;
-
+sprite_normal = spr_enemy_tank_nm;
 
 bounce_xscale = 0;
 bounce_yscale = 0;
