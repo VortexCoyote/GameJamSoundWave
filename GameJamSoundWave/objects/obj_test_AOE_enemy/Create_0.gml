@@ -7,6 +7,7 @@ image_xscale = 3;
 image_yscale = image_xscale;
 color = c_white ;
 sprite_normal = spr_enemy_tank_nm;
+sprite_eyes = spr_enemy_eyes_tank;
 
 bounce_xscale = 0;
 bounce_yscale = 0;

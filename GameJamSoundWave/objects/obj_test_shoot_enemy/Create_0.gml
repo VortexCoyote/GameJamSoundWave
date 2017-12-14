@@ -7,6 +7,7 @@ image_xscale = 3;
 image_yscale = image_xscale;
 color = c_gray;
 sprite_normal = spr_enemy_shooter_nm;
+sprite_eyes = spr_enemy_eyes_shooter;
 
 //Movement
 movement_speed = 4.5;

@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "23b3f9c2-17f7-4f07-be05-780b3873ba66",
+            "Value": {
+                "id": "bba806c6-6bc0-4753-9644-80f8a6bde2b2",
+                "resourcePath": "sprites\\spr_enemy_eyes_tank\\spr_enemy_eyes_tank.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "23be698a-ca6a-4921-a6e8-2e1d301202a9",
             "Value": {
                 "id": "a11963a5-f8e3-41b2-8def-19eeb4e4214a",
@@ -431,6 +439,14 @@
             }
         },
         {
+            "Key": "62c1b19c-0c6a-471d-ab38-bc50b71a72f4",
+            "Value": {
+                "id": "c5e84bc3-a417-476f-8c52-324670e9be4b",
+                "resourcePath": "sprites\\spr_enemy_eyes_small\\spr_enemy_eyes_small.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "63ad9d59-054b-4b88-ad88-0e5f3f611e3b",
             "Value": {
                 "id": "01f48656-0fa0-4442-b421-59fa269083bc",
@@ -596,6 +612,14 @@
                 "id": "351676b6-a6ff-4fc3-ad5c-b3dd4ec6dfd7",
                 "resourcePath": "views\\84fba127-1e11-43ff-a883-0971db18b164.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "855dac45-2bc3-4d81-b897-4a295902e789",
+            "Value": {
+                "id": "c09ad764-aa26-4381-b09b-4e6dddbc79a4",
+                "resourcePath": "sprites\\spr_enemy_eyes_shooter\\spr_enemy_eyes_shooter.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

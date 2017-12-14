@@ -7,6 +7,7 @@ image_xscale = 3;
 image_yscale = image_xscale;
 color = c_white ;
 sprite_normal = spr_enemy_small_nm;
+sprite_eyes = spr_enemy_eyes_small;
 
 //Movement
 movement_speed = 6;

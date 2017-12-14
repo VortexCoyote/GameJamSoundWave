@@ -9,7 +9,7 @@ void main()
 {
     
     //float dis = length(v_vTexcoord - 0.5) * 16.;
-    float size = 0.1;
+    float size = 16.0;
     
     vec2 pos = v_vTexcoord * 32.0;        
     vec4 c = texture2D(gm_BaseTexture, v_vTexcoord);
