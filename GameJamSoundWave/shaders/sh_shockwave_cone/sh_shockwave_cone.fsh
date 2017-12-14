@@ -22,7 +22,7 @@ void main()
 		c = texture2D( gm_BaseTexture, v_vTexcoord - dir * clamp(dis, 0.0, 0.1));	
 	}
 	
-    gl_FragColor = (c+vec4(0.1, 0.1, 0.0, 0.0));//v_vColour * texture2D( gm_BaseTexture, v_vTexcoord );
+    gl_FragColor = (c+vec4(0.0, 0.0, 0.2, 0.0));//v_vColour * texture2D( gm_BaseTexture, v_vTexcoord );
 }
 
 
