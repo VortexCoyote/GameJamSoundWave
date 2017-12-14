@@ -4,13 +4,14 @@ varying vec4 v_vColour;
 uniform vec2 lightPosition;
 uniform float width;
 
+
 void main()
 {	
-	vec4 LightColor = vec4(vec3(0.7), 0.5); 
-	vec4 AmbientColor = vec4(vec3(0.7), 0.5);
+	vec4 LightColor = vec4(vec3(1.0), 5.0); 
+	vec4 AmbientColor = vec4(vec3(0.7), 0.9);
 	vec3 Falloff = vec3(0.5);
 
-	vec4 DiffuseColor = texture2D(gm_BaseTexture, v_vTexcoord);//vec4(vec3(0.5), texture2D(gm_BaseTexture, v_vTexcoord).a);
+	vec4 DiffuseColor = vec4(vec3(0.1), texture2D(gm_BaseTexture, v_vTexcoord).a);//vec4(vec3(0.5), texture2D(gm_BaseTexture, v_vTexcoord).a);
 	vec3 NormalMap = texture2D(gm_BaseTexture, v_vTexcoord).rgb;
 	
 	vec3 LightDir = vec3(lightPosition.xy - v_vTexcoord, 0.0);

@@ -1,0 +1,1 @@
+draw_surface_stretched_ext(obj_light.normal_surface, view_x, view_y, view_w, view_h, c_white, 0.5)

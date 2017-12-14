@@ -18,3 +18,6 @@ blur_surface   = surface_create(view_w, view_h)
 object_surface = surface_create(view_w, view_h)
 normal_surface = surface_create(view_w, view_h)
 light_surface  = surface_create(view_w, view_h)
+
+
+instance_create_depth(0, 0, -room_height, obj_normalmap)

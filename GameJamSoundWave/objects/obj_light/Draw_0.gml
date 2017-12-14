@@ -6,6 +6,8 @@ if !surface_exists(object_surface) object_surface = surface_create(view_w, view_
 if !surface_exists(normal_surface) normal_surface = surface_create(view_w, view_h)
 
 
+offset_y = obj_player.y + 2*dcos(obj_player.animation[1])
+
 //Handles Light
 surface_set_target( object_surface )
 draw_clear_alpha( c_white, 0.0 )
@@ -14,7 +16,7 @@ for (i = 0; i < instance_number(obj_brick_test); ++i)
 {
 	object = instance_find(obj_brick_test,i);
 		
-	draw_sprite_ext(object.sprite_index,object.image_index,round(object.x - view_x),round(object.y - view_y),
+	draw_sprite_ext(object.sprite_normal,object.image_index,round(object.x - view_x),round(object.y - view_y),
 	object.image_xscale,object.image_yscale,object.image_angle,object.color,object.image_alpha);
 }
 
@@ -34,7 +36,7 @@ surface_set_target( normal_surface )
 draw_clear_alpha( c_white, 0.0 )
 
 shader_set(sh_normal)
-shader_set_uniform_f(light_position_normal, (obj_player.x - view_x)/view_w, (obj_player.y - view_y)/view_h)
+shader_set_uniform_f(light_position_normal, (obj_player.x - view_x)/view_w, (offset_y - view_y)/view_h)
 shader_set_uniform_f(width, width)
 
 draw_surface_stretched(object_surface, 0, 0, view_w, view_h)
@@ -49,7 +51,7 @@ draw_clear_alpha( c_white, 0.0 )
 	
 shader_set(sh_light)
 
-shader_set_uniform_f(light_position, (obj_player.x - view_x)/view_w, (obj_player.y - view_y)/view_h)
+shader_set_uniform_f(light_position, (obj_player.x - view_x)/view_w, (offset_y - view_y)/view_h)
 shader_set_uniform_f(light_colour, r, g, b);
 	
 draw_surface_stretched(object_surface, 0, 0, l_w, l_h)
@@ -70,8 +72,8 @@ surface_reset_target()
 
 
 //Draws all the necessary surfaces
-draw_surface_stretched(normal_surface, view_x, view_y, view_w, view_h)
 draw_surface_stretched(blur_surface,   view_x, view_y, n_w,    n_h)
+
 
 
 

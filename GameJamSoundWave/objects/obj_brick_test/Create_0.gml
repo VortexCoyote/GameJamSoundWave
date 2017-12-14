@@ -1,6 +1,9 @@
 /// @description
 color = c_white;
-depth =-y;
+depth =-y
 
 image_xscale = 3
 image_yscale = 3
+
+
+sprite_normal = spr_enemy_tank_nm
