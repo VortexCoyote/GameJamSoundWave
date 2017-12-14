@@ -6,8 +6,15 @@ color = c_white;
 
 dir = 0;
 //Wave Attack
-circle_radius = 450;
+circle_radius = 200;
 cone_coll_obj = noone;
 cone_offset = 30;
+knockback = 2.6;
 
-alarm[0] = 60;
+absolute_length = sprite_width;
+length_point_x = x + lengthdir_x(sprite_width,dir); 
+length_point_y = y + lengthdir_y(sprite_width,dir); 
+
+alarm[0] = 30;
+
+sub_length = 2;
