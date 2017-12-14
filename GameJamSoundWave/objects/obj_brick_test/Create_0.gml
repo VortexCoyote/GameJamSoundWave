@@ -6,4 +6,4 @@ image_xscale = 3;
 image_yscale = 3;
 
 
-sprite_normal = spr_normal
+sprite_normal = spr_normal;

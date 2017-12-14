@@ -25,13 +25,9 @@ if(coll_obj != noone)
 			enemy_to_enemy_collision_knockback();
 			x += x_knockback;
 			y += y_knockback;
-	
-	
-			var rand = irandom(2);
-			if(rand == 1)
-			{
-				instance_create(x,y,obj_dust);	
-			}
+			
+			instance_create(x,y,obj_dust);	
+			
 		}
 	}
 }
