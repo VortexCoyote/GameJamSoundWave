@@ -1,42 +1,42 @@
 {
-    "id": "b71f42df-d615-4be5-bf4b-95980e0a4bf9",
+    "id": "1fc75d55-0cee-48a3-936b-ff8fb12aa5a5",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_test_AOE_enemy",
+    "name": "obj_AOE_weapon",
     "eventList": [
         {
-            "id": "16bbf6e6-46d7-471d-9d09-7847f2e0197d",
+            "id": "bb190365-aaa6-4e14-bdcf-71ecec69288a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "b71f42df-d615-4be5-bf4b-95980e0a4bf9"
+            "m_owner": "1fc75d55-0cee-48a3-936b-ff8fb12aa5a5"
         },
         {
-            "id": "93ba02c3-99b5-4885-aa45-8442fb93e114",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "b71f42df-d615-4be5-bf4b-95980e0a4bf9"
-        },
-        {
-            "id": "8d81f1fe-40cd-429f-ad67-59ccd434fe2b",
+            "id": "5734411c-fbe0-4daa-ad78-dd353cdbd1f4",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
-            "m_owner": "b71f42df-d615-4be5-bf4b-95980e0a4bf9"
+            "m_owner": "1fc75d55-0cee-48a3-936b-ff8fb12aa5a5"
+        },
+        {
+            "id": "2c3b8249-a5e8-4a05-9e1d-7c1017c007aa",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 3,
+            "m_owner": "1fc75d55-0cee-48a3-936b-ff8fb12aa5a5"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "7e0b176c-ebee-40e2-b294-f696dfe78fbb",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -51,6 +51,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "06511871-d1ce-47ce-9aa2-78e7369ab633",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

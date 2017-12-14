@@ -1,4 +1,5 @@
 /// @description
+event_inherited();
 target = obj_player;
 
 //Appearance
@@ -11,6 +12,9 @@ movement_speed = 3;
 x_speed = 0;
 y_speed = 0;
 dir = 0;
+
+x_knockback = 0;
+y_knockback = 0;
 
 patroll_action = "patroll";
 //Pathing

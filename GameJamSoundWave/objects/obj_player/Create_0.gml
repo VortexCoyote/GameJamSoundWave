@@ -2,6 +2,9 @@
 
 //Appearance
 color = c_white;
+color_body = make_color_rgb(255,255,255);
+color_head = make_color_rgb(255,255,255);
+color_crystal = make_color_rgb(255,255,255);
 image_xscale = 3;
 image_yscale = image_xscale;
 
@@ -41,3 +44,10 @@ animation[2] = 55;
 sprite_dir = 0;
 
 light = instance_create(x, y, obj_light);
+
+//Attack
+attack_timer = 0;
+HP = 100;
+
+AOE_weapon = noone;
+AOE_attack_timer = 0;
