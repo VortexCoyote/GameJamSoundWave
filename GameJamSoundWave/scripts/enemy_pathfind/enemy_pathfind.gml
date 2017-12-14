@@ -32,5 +32,6 @@ if(current_state == argument0)
 		timer = 40;
 		attack_timer = 120;
 		current_state = enemy_state.leap;
+
 	}
 }

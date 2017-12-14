@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+randomize();
+sound = choose(snd_attack1, snd_attack2,snd_attack3);
+audio_sound_pitch(sound,random_range(0.9,1.1));
+audio_play_sound(sound,2,false);
 
 target = obj_player;
 color = c_white;

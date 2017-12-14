@@ -9,7 +9,14 @@ if(circle_radius >= 200)
 	instance_destroy(shockwave);
 	instance_destroy();
 }
-
+if(instance_exists(shockwave))
+{
+	with(shockwave)
+	{
+		x = other.x;
+		y = other.y;
+	}
+}
 coll_obj = collision_circle_list(x,y,circle_radius,obj_enemy,true,true);
 
 if(coll_obj != noone)
@@ -28,7 +35,9 @@ if(coll_obj != noone)
 			x += x_knockback;
 			y += y_knockback;
 			
-			instance_create(x,y,obj_dust);	
+			instance_create(x,y,obj_dust);
+			
+			HP -= other.dmg;
 			
 		}
 	}

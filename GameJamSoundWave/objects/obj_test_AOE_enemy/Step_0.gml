@@ -1,4 +1,4 @@
-/// @description
+ /// @description
 enemy_AOE_follow(enemy_AOE_state.follow);
 enemy_AOE_pathfind(enemy_AOE_state.pathfind);
 enemy_AOE_stomp(enemy_AOE_state.stomp);

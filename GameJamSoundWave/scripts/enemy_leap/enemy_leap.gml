@@ -17,6 +17,12 @@ if(current_state == argument0)
 	}
 	else
 	{
+		if(leap_range == 300)
+		{
+			var sound = snd_AOE_attack2;
+			audio_sound_pitch(sound,random_range(0.9,1.1));
+			audio_play_sound(sound,2,false);
+		}
 		if(leap_range < 0)
 		{
 			current_state = enemy_state.follow;	
