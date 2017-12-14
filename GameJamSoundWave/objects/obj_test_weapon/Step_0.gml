@@ -20,7 +20,6 @@ length_point_y = y + lengthdir_y(sprite_width/2,dir);
 
 if(cone_coll_obj != noone)
 { 
-	
 	for (var i = 0; i < ds_list_size(cone_coll_obj); ++i) 
 	{
 		var instance = ds_list_find_value(cone_coll_obj,i); 
@@ -28,7 +27,12 @@ if(cone_coll_obj != noone)
 		{
 			HP -= other.dmg;
 		}
-		
 	}
 }
 
+
+shockwave.x = x
+shockwave.y = y
+
+shockwave.angle = dir
+shockwave.length = circle_radius/4

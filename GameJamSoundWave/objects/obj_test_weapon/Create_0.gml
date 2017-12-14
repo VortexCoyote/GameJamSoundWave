@@ -24,3 +24,5 @@ length_point_y = y + lengthdir_y(sprite_width,dir);
 alarm[0] = 30;
 
 sub_length = 2;
+
+shockwave = instance_create(x, y, obj_shockwave_cone)

@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "23be698a-ca6a-4921-a6e8-2e1d301202a9",
+            "Value": {
+                "id": "a11963a5-f8e3-41b2-8def-19eeb4e4214a",
+                "resourcePath": "shaders\\sh_shockwave_cone\\sh_shockwave_cone.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "25507108-025c-4354-8b48-ae571bc1007b",
             "Value": {
                 "id": "e50ee978-a67e-4930-8ad7-c7b9d88202aa",
@@ -548,6 +556,14 @@
                 "id": "351676b6-a6ff-4fc3-ad5c-b3dd4ec6dfd7",
                 "resourcePath": "views\\84fba127-1e11-43ff-a883-0971db18b164.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "873f37aa-25db-414c-a17e-b8e6b33ec281",
+            "Value": {
+                "id": "a7f4a570-5890-4d79-9907-be59e26547ac",
+                "resourcePath": "objects\\obj_shockwave_cone\\obj_shockwave_cone.yy",
+                "resourceType": "GMObject"
             }
         },
         {

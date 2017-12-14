@@ -18,3 +18,7 @@ void main()
     gl_FragColor = clamp(1.0 - 2.0*distance(v_vTexcoord, vec2(0.5)), 0.0, 1.0) * (v_vColour * texture2D( gm_BaseTexture, v_vTexcoord )) 
     + vec4(vec3((0.1*randValue)*distance(gridCoords, vec2(0.5))), 1.0);
 }
+
+
+
+
