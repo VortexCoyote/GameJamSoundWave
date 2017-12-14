@@ -5,3 +5,8 @@ enemy_shoot(enemy_shoot_state.shoot);
 enemy_shoot_patroll(enemy_shoot_state.patroll);
 
 enemy_hit();
+
+if(HP <= 0)
+{
+	
+}
