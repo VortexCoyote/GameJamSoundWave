@@ -51,3 +51,4 @@ HP = 100;
 
 AOE_weapon = noone;
 AOE_attack_timer = 0;
+
