@@ -14,4 +14,6 @@ global.grid = noone;
 SecondsBetweenEnemySpawn = 20;
 SecondsSinceLastEnemySpawn = 0;
 globalvar EnemiesDestroyed;
-EnemiesDestroyed = 0
+EnemiesDestroyed = 0;
+
+text_alpha = 1;

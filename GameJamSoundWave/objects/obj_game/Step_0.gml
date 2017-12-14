@@ -48,7 +48,9 @@ if (SecondsSinceLastEnemySpawn >= SecondsBetweenEnemySpawn)
 {
 	repeat(12)
 	{
-		spawn_object(choose(obj_test_AOE_enemy,obj_test_enemy,obj_test_shoot_enemy));
+		spawn_object(choose(obj_test_AOE_enemy,obj_test_enemy,obj_test_enemy,obj_test_shoot_enemy));
 	}
 	SecondsSinceLastEnemySpawn = 0;
 }
+
+text_alpha -= 0.19/room_speed;

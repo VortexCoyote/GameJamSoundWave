@@ -14,3 +14,5 @@ vcells = room_height div cell_height;
 global.grid = mp_grid_create(0,0,hcells,vcells,cell_width,cell_height);
 //Add Solids
 mp_grid_add_instances(global.grid ,obj_solid,false);
+
+text_alpha = 1;

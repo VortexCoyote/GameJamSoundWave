@@ -6,7 +6,7 @@ if(length <= 0)
 
 lenx = lengthdir_x(length,dir);
 leny = lengthdir_y(length,dir);
-length -= 4;
+length -= 3.5;
 
 if(collision_line(x,y,x+lenx,y+leny,obj_solid,true,true))
 {

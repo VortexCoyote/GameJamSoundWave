@@ -57,3 +57,7 @@ enemy_obj = noone;
 x_speed = 0;
 y_speed = 0;
 dir = 0;
+
+hit = false;
+
+dead = false;

@@ -13,7 +13,10 @@ if(paused)
 	display_get_gui_height()/2 + string_h/2,string_);
 }
 
-draw_set_color(c_white);
+draw_text_ext_color(500,300,"ATTACKS: SPACEBAR - LEFT MOUSECLICK",1,500,c_white,c_white,c_white,c_white,text_alpha);
+draw_text_ext_color(500,340,"ENTER TO PAUSE",1,500,c_white,c_white,c_white,c_white,text_alpha);
+draw_text_ext_color(500,400,"SURVIVE...",1,500,c_white,c_white,c_white,c_white,text_alpha);
+/*draw_set_color(c_white);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_text(5,5,display_write_specs(display.screen)+"\n"+
@@ -29,6 +32,6 @@ draw_text(display_get_gui_width()-5, display_get_gui_height() -30, "FPS_REAL = "
 draw_text(display_get_gui_width()-5, display_get_gui_height() -50, "FPS = " + string(floor(fps_real)));
 draw_text(display_get_gui_width()-5, display_get_gui_height() -90, room_speed);
 
-draw_text(display_get_gui_width()-5, display_get_gui_height() -5, "Bottom Right");
+draw_text(display_get_gui_width()-5, display_get_gui_height() -5, "Bottom Right");*/
 
 

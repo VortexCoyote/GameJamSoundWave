@@ -7,4 +7,4 @@ image_xscale,image_yscale,image_angle,color,image_alpha);
 
 draw_text(x,y -20,HP);
 
-draw_path(path,x,y,false)
+//draw_path(path,x,y,false)

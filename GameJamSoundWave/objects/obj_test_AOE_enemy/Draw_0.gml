@@ -7,4 +7,4 @@ image_xscale + bounce_xscale,image_yscale + bounce_yscale,image_angle,make_color
 
 draw_text(x,y -20,HP);
 
-draw_path(path,x,y,false)
+//draw_path(path,x,y,false)

@@ -18,7 +18,7 @@ if(current_state == argument0)
         patroll_action = "idle";
         if(timer <= -80)
         {
-            dir = random(360);
+            dir = point_direction(x,y,target.x,target.y);
             timer = 80;
             patroll_action = choose("patroll","followx","followy");
             
@@ -28,8 +28,8 @@ if(current_state == argument0)
     if(patroll_action == "patroll")
     {
         timer--;
-        x_speed = lengthdir_x(1,dir);
-        y_speed = lengthdir_y(1,dir);
+        x_speed = lengthdir_x(3,dir);
+		y_speed = lengthdir_y(3,dir);
     }
     if(patroll_action == "followx")
     {

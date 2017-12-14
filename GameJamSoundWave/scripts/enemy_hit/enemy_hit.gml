@@ -16,6 +16,10 @@ if(weapon_coll)
 	var rand = irandom(2);
 	if(rand == 1)
 	{
-		instance_create(x,y,obj_dust);	
+		repeat(5)
+		{
+			instance_create(x,y,obj_dust);	
+		}
+
 	}
 }

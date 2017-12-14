@@ -1,6 +1,6 @@
 /// @description
 color = c_white;
-depth =-y;
+
 
 image_xscale = 3;
 image_yscale = 3;
@@ -19,3 +19,5 @@ if(sprite_index == spr_stone_big)
 {
 	sprite_normal = spr_stone_big_nm;
 }
+
+depth =-y - sprite_height/2;
