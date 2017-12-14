@@ -9,7 +9,7 @@ void main()
 {
 	float dis = distance(v_vTexcoord*resolution, shockwavePosition);
 	
-	vec4 c = texture2D( gm_BaseTexture, v_vTexcoord );
+	vec4 c = vec4(0.0);//texture2D( gm_BaseTexture, v_vTexcoord );
 	
 	if(dis <= lengthValue && dis >= lengthValue - (48.0 - dis*0.25) )
 	{
