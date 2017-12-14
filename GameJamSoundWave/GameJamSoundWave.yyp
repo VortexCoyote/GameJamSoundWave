@@ -263,6 +263,22 @@
             }
         },
         {
+            "Key": "4cc76aa1-84ad-4458-bd58-d51d2bb183df",
+            "Value": {
+                "id": "02b30052-5ece-4cfd-8c22-4ee12672a3b8",
+                "resourcePath": "shaders\\sh_shockwave\\sh_shockwave.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "5163f425-3ab4-4e03-bce4-acdbd25904e4",
+            "Value": {
+                "id": "bee42625-834a-45da-bbe2-ee72ca21eae0",
+                "resourcePath": "objects\\obj_shockwave\\obj_shockwave.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "56c74dec-8fe0-4ad5-8e50-12e4f10ab102",
             "Value": {
                 "id": "36dc9354-9461-415b-b2d6-9b21b19df829",

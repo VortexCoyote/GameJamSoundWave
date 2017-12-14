@@ -40,3 +40,4 @@ if(instance_exists(AOE_weapon))
 		y = other.y;
 	}
 }
+

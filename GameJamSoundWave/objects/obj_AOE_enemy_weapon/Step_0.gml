@@ -1,9 +1,11 @@
 /// @description
 shake_screen(1);
 circle_radius += 6;
+shockwave.length = circle_radius;
 
 if(circle_radius >= 200)
 {
+	instance_destroy(shockwave);
 	instance_destroy();
 }
 

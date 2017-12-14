@@ -76,7 +76,7 @@ surface_reset_target()
 
 
 //Draws all the necessary surfaces
-draw_surface_stretched(blur_surface,   view_x, view_y, n_w,    n_h)
+draw_surface_stretched(blur_surface, view_x, view_y, n_w, n_h)
 
 
 
