@@ -25,7 +25,7 @@ void main()
         {
             break;
         }
-        else if (distance(coords, lightCoords) < 0.008) 
+        else if (distance(coords, lightCoords) < 0.01) 
         {
             colour = vec4(lightColour, 1. ) - (dis*1.5);            
             break;

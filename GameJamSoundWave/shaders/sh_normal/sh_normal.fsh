@@ -4,12 +4,11 @@ varying vec4 v_vColour;
 uniform vec2 lightPosition;
 uniform float width;
 
-
 void main()
 {	
 	vec4 LightColor = vec4(vec3(1.0), 5.0); 
-	vec4 AmbientColor = vec4(vec3(0.7), 0.9);
-	vec3 Falloff = vec3(0.5);
+	vec4 AmbientColor = vec4(vec3(0.7), 1.0);
+	vec3 Falloff = vec3(0.6);
 
 	vec4 DiffuseColor = vec4(vec3(0.1), texture2D(gm_BaseTexture, v_vTexcoord).a);//vec4(vec3(0.5), texture2D(gm_BaseTexture, v_vTexcoord).a);
 	vec3 NormalMap = texture2D(gm_BaseTexture, v_vTexcoord).rgb;
@@ -26,8 +25,7 @@ void main()
 	float Attenuation = 1.0 / ( Falloff.x + (Falloff.y*D) + (Falloff.z*D*D) );
 	
 	vec3 Intensity = Ambient + Diffuse * Attenuation;
-	vec3 FinalColor = DiffuseColor.rgb * Intensity;
-	
+	vec3 FinalColor = DiffuseColor.rgb * Intensity + vec3(0.1);
 	
 	gl_FragColor = v_vColour * vec4(FinalColor, DiffuseColor.a);
 }
