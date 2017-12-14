@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "13e3beb8-5dad-49f6-a48c-ca8527ff08e9",
+            "Value": {
+                "id": "84ea64b8-b902-48a0-b1f5-9f1fa21210c9",
+                "resourcePath": "sprites\\spr_stone_small\\spr_stone_small.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "15835f00-ea7e-4dc4-a5b1-3974c9b5b273",
             "Value": {
                 "id": "bb1d1ae8-d4cc-4ccb-bafc-991c8aa3a56f",
@@ -148,6 +156,14 @@
                 "id": "e297c544-baa1-4a97-8cd8-5aacc9a59439",
                 "resourcePath": "sprites\\spr_ball\\spr_ball.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1e9016ec-d478-4643-bada-203bddf5dc02",
+            "Value": {
+                "id": "d4979139-5e0f-4ce9-a0e1-6c4e89af56b0",
+                "resourcePath": "views\\1e9016ec-d478-4643-bada-203bddf5dc02.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -311,6 +327,14 @@
             }
         },
         {
+            "Key": "4c12c2ad-9c6d-4cc1-978c-3a1813895955",
+            "Value": {
+                "id": "57884c48-2420-42d5-86ce-0a0432fceffe",
+                "resourcePath": "sprites\\spr_stone_big_nm\\spr_stone_big_nm.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4cc76aa1-84ad-4458-bd58-d51d2bb183df",
             "Value": {
                 "id": "02b30052-5ece-4cfd-8c22-4ee12672a3b8",
@@ -364,6 +388,14 @@
                 "id": "fc5211f9-9591-4269-9649-b1f17a956b3c",
                 "resourcePath": "scripts\\enemy_AOE_pathfind\\enemy_AOE_pathfind.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5d7f1dc0-3d55-478c-ae43-c578c50fffc9",
+            "Value": {
+                "id": "e4e90fa1-872e-4052-a017-a33f1186842b",
+                "resourcePath": "sprites\\spr_stone_medium\\spr_stone_medium.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -631,6 +663,14 @@
             }
         },
         {
+            "Key": "9a4d5d49-5c62-4684-a8ba-a859296c6612",
+            "Value": {
+                "id": "bc2f7ee9-02bb-4cb7-9b8c-ba5b3e599a7f",
+                "resourcePath": "sprites\\spr_stone_small_nm\\spr_stone_small_nm.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9dc82e9c-4e6b-4442-8821-719dfc7d0ec4",
             "Value": {
                 "id": "969e42d5-e804-475a-8c28-dbe9a00a11d6",
@@ -684,6 +724,14 @@
                 "id": "b797673a-5007-43d6-9756-635f45b1dd65",
                 "resourcePath": "sounds\\snd_player_attack1\\snd_player_attack1.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "a537ca92-0110-455f-8ffa-9eab0393055a",
+            "Value": {
+                "id": "d5bb25d3-2eac-4bea-b075-e6ed148448b6",
+                "resourcePath": "sprites\\spr_stone_medium_nm\\spr_stone_medium_nm.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -903,6 +951,14 @@
             }
         },
         {
+            "Key": "e195c199-6eda-4512-8547-c5009d53b236",
+            "Value": {
+                "id": "837d8d95-5f8d-4fb6-bfd9-e7c725d00f72",
+                "resourcePath": "views\\e195c199-6eda-4512-8547-c5009d53b236.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e29977ae-6314-43f0-a6b8-48230f13623c",
             "Value": {
                 "id": "85597998-9432-4a93-bf6f-e51a665c1363",
@@ -932,6 +988,14 @@
                 "id": "8ac4216a-7596-4df9-b523-7f9218cd4535",
                 "resourcePath": "views\\e43cca8b-446e-4f7e-9ecd-a358f143c7eb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e4a7eb7b-f30d-46db-8b6c-70e499b97116",
+            "Value": {
+                "id": "bd7ecd9f-4151-4a7c-b8bd-8d69ac010ebd",
+                "resourcePath": "sprites\\spr_stone_big\\spr_stone_big.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
