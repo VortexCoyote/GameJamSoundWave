@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "0ec28680-f7db-4582-b894-a5012aa83f46",
+            "Value": {
+                "id": "e0fcb299-6b05-423e-8642-ca5d865ef209",
+                "resourcePath": "sounds\\snd_enemy_death2\\snd_enemy_death2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "15835f00-ea7e-4dc4-a5b1-3974c9b5b273",
             "Value": {
                 "id": "bb1d1ae8-d4cc-4ccb-bafc-991c8aa3a56f",
@@ -671,6 +679,14 @@
             }
         },
         {
+            "Key": "a92a8820-f46d-43cb-af26-e6333a3cde97",
+            "Value": {
+                "id": "a48a1372-6ab2-48cd-afad-ef25e2a1a4ee",
+                "resourcePath": "objects\\obj_chunk\\obj_chunk.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "aa71a16d-33d0-4737-9050-3f52c24648ab",
             "Value": {
                 "id": "679f46f6-b763-4f5c-a632-290e3b02be38",
@@ -911,6 +927,14 @@
             }
         },
         {
+            "Key": "e81544fb-ae68-428e-b255-12e84537e953",
+            "Value": {
+                "id": "28cd6a09-f04b-49af-85fd-9498ebfe7fee",
+                "resourcePath": "sounds\\snd_enemy_death1\\snd_enemy_death1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "eb4f48cc-0cc8-4aa7-9d5f-60b1a854937e",
             "Value": {
                 "id": "f4a768ad-de13-4554-aa7b-af878e7d2ac3",
@@ -943,6 +967,14 @@
             }
         },
         {
+            "Key": "f5b5f86f-34cb-4fd2-a231-7ab558d72d07",
+            "Value": {
+                "id": "62df25bb-f470-47ba-854d-c55145dbe526",
+                "resourcePath": "sounds\\snd_enemy_death3\\snd_enemy_death3.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "f746b32a-6681-4cc8-aadd-cf24af97761b",
             "Value": {
                 "id": "f154b0b1-bf52-44b3-8594-1af4fb6261b9",
@@ -970,7 +1002,7 @@
             "Key": "f89067fa-b7bb-40ee-a905-79318387257a",
             "Value": {
                 "id": "b19e1f0d-8667-4484-9e9f-1108e8e5bc51",
-                "resourcePath": "scripts\\spawn_enemy\\spawn_enemy.yy",
+                "resourcePath": "scripts\\spawn_object\\spawn_object.yy",
                 "resourceType": "GMScript"
             }
         },

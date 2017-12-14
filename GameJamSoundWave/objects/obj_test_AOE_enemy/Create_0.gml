@@ -36,7 +36,8 @@ enum enemy_AOE_state
 	follow,
 	pathfind,
 	stomp,
-	patroll
+	patroll,
+	dead
 }
 
 current_state = enemy_state.patroll;

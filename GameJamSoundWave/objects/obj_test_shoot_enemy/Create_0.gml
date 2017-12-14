@@ -28,7 +28,8 @@ enum enemy_shoot_state
 	follow,
 	pathfind,
 	shoot,
-	patroll
+	patroll,
+	dead
 }
 
 current_state = enemy_shoot_state.patroll;

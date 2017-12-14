@@ -10,3 +10,8 @@ globalvar SlowMo;
 SlowMo = 1;
 
 global.grid = noone;
+
+SecondsBetweenEnemySpawn = 20;
+SecondsSinceLastEnemySpawn = 0;
+globalvar EnemiesDestroyed;
+EnemiesDestroyed = 0
