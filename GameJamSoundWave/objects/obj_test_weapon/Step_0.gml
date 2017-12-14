@@ -18,10 +18,6 @@ absolute_length = sprite_width;
 length_point_x = x + lengthdir_x(sprite_width/2,dir); 
 length_point_y = y + lengthdir_y(sprite_width/2,dir); 
 
-with(obj_enemy)
-{
-	color = c_white;
-}
 if(cone_coll_obj != noone)
 { 
 	
@@ -30,7 +26,7 @@ if(cone_coll_obj != noone)
 		var instance = ds_list_find_value(cone_coll_obj,i); 
 		with(instance)
 		{
-			color = c_red;
+			HP -= other.dmg;
 		}
 		
 	}
