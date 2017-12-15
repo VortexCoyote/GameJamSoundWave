@@ -1,7 +1,8 @@
 if !obj_game.paused and !obj_player.dead {
 	
-	secs+= (delta_time*0.000001)*room_speed 
-	time = string(secs div 3600) + ":" + string(secs div 60) + ":" + string( int64(secs mod 60) )
+	secs += (delta_time*0.000001)*room_speed 
+	
+	time = string(secs div 3600) + ":" + string((secs div 60) mod 60) + ":" + string(int64(secs mod 60))
 }
 else {
 		
