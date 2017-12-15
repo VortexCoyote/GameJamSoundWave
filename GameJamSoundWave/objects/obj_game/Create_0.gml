@@ -17,3 +17,4 @@ globalvar EnemiesDestroyed;
 EnemiesDestroyed = 0;
 
 text_alpha = 1;
+

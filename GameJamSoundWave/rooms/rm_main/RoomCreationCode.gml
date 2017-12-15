@@ -29,3 +29,5 @@ for (var i = 0; i < solids; ++i)
 {
 	spawn_object(obj_brick_test);
 } 
+
+instance_create(0, 0, obj_timer)

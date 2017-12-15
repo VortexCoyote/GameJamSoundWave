@@ -16,6 +16,7 @@ if(paused)
 draw_text_ext_color(500,300,"ATTACKS: SPACEBAR - LEFT MOUSECLICK",1,500,c_white,c_white,c_white,c_white,text_alpha);
 draw_text_ext_color(500,340,"ENTER TO PAUSE",1,500,c_white,c_white,c_white,c_white,text_alpha);
 draw_text_ext_color(500,400,"SURVIVE...",1,500,c_white,c_white,c_white,c_white,text_alpha);
+
 /*draw_set_color(c_white);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
