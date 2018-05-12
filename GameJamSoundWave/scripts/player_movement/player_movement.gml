@@ -1,4 +1,4 @@
- up = keyboard_check(key_up);
+up = keyboard_check(key_up);
 down = keyboard_check(key_down)
 left = keyboard_check(key_left)
 right = keyboard_check(key_right);
